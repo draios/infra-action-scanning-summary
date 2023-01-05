@@ -1,0 +1,12 @@
+
+node_modules/
+
+# Taskfile
+.task/*
+
+# Editors
+.idea
+.vscode
+
+# Optional npm cache directory
+.npm

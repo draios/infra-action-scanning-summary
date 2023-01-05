@@ -1,0 +1,11 @@
+name: 'Vulnerabilities Report'
+description: 'Render vulnerabilities report on github action job summaries'
+author: 'Draios'
+inputs:
+  report-file-path:
+    description: 'Report file (relative path)'
+    required: true
+    default: 'vulnerabilities.json'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
