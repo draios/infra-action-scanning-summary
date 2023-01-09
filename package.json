@@ -1,0 +1,11 @@
+{
+  "name": "infra-action-scanning-summary",
+  "description": "This actions displays a Job Summary report based on the Sysdig Scanner output",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "ncc build index.js -o dist --source-map --license licenses.txt"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
+}
